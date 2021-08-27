@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/rotas/node_modules
+/upload-imagem/node_modules
+/upload-imagem/.pnp
+/upload-imagem.pnp.js
+
+# testing
+/upload-imagem/coverage
+
+# production
+/upload-imagem/build
+
+# misc
+/upload-imagem/.DS_Store
+/upload-imagem/.env.local
+/upload-imagem/.env.development.local
+/upload-imagem/.env.test.local
+/upload-imagem/.env.production.local
+
+/upload-imagem/npm-debug.log*
+/upload-imagem/yarn-debug.log*
+/upload-imagem/yarn-error.log*
